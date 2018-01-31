@@ -14,9 +14,11 @@ import java.util.Date;
 import java.util.Random;
 
 public class ReceiveLogsTopic1 {
+
     //转发器名称
     private  final  static  String EXCHANGE_NAME = "topic_logs";
     public static void main(String[] args) throws Exception {
+        System.out.println("22222222222222222222");
         //区分不同工作进程的输出
         int hashCode = ReceiveLogsTopic1.class.hashCode();
         //创建连接到RabbitMQ
